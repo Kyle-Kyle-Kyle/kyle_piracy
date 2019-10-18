@@ -93,7 +93,7 @@ th{
 	font-size: 35px;
 }
 th,td { 
-	margin-left: 13%;
+	margin-left: 13px;
 	margin-right: auto;
 	padding: 10px; 
 	text-align: center; 
@@ -117,7 +117,7 @@ th,td {
 	text-align: center;
 }
 hr{
-	width: 80%;
+	width: 900px;
 }
 
 .how{
