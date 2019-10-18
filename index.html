@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Kyle_Piracy</title>
+
+</head>
+<body >	
+    <div class="top">
+    	<h1 class="cen" title="piracy is a crime">
+    		ONLINE<br> PIRACY
+    	</h1>
+      </div>
+    <img class="logo1" src="images/skull.png">
+    <img class="logo2" src="images/skull.png">
+    
+<br>
+ <hr>
+ <table>
+ 	<tr>
+ 		<th>Torrenting</th>
+ 	</tr>
+ 
+
+<tr>
+	<td>
+<button type="button" class="collapsible">Torrent Clients</button>
+<div class="content">
+<h4 class="z">Pc</h4>
+<ul class="ff">
+  <li>
+      <a href="https://www.qbittorrent.org">qBitTorrent</a>
+      - a cross-platform free and open-source BitTorrent client. 
+  </li>
+    <li>
+    <a href="https://webtorrent.io/">WebTorrent</a> - WebTorrent, the streaming torrent client for the browser, Mac, Windows, and Linux.
+    </li>
+    <li>
+      <a href="https://www.frostwire.com">FrostWire</a>
+      - a free and open-source BitTorrent client. 
+  	</li>
+  	<li>
+      <a href="https://picotorrent.org">PicoTorrent</a>
+      - a friendly BitTorrent client for Windows with high performance and low memory usage.
+  	</li>
+  	<li>
+      <a href="https://tornado-torrent.gitlab.io">Tornado</a>
+      - a modern web-first torrent client designed to be both featureful and user-friendly.
+  	</li>
+</ul>
+
+<h4 class="z">Mobile</h4>
+<ul class="ff">
+    <li>
+    <a href="https://play.google.com/store/apps/details?id=com.delphicoder.flud&hl=en">Flud</a>
+    - Mobile Torrent Client
+    </li>
+    <li>
+    <a href="https://play.google.com/store/apps/details?id=idm.internet.download.manager.plus">IDM+</a>
+    - Also mobile torrent client
+    </li>
+        </ul>
+    </div>
+   </td>
+</tr>
+
+<br>
+<tr>
+	<td>
+<button type="button" class="collapsible">Torrent Sites</button>
+<div class="content">
+<ul class="ff">
+    <li>
+        <a href="https://rarbgprx.org/index70.php">Rarbg</a>
+    </li>
+    <li>
+        <a href="https://www.mkvcage.com/">MKVCage</a>
+    </li>
+    <li>
+        <a href="https://zooqle.com/">Zooqle</a>
+    </li>
+    <li>
+        <a href="https://1337x.to/">1337x</a>
+    </li>
+        </ul>
+</div>
+</td>
+</tr>
+</table>
+<br>
+ <hr style="width: 60%">
+
+
+ <table>
+ 	<tr>
+ 		<th>Direct Download</th>
+ 	</tr>
+<tr>
+	<td>
+<button type="button" class="collapsible">Download Managers</button>
+<div class="content">
+<h4 class="z">Pc</h4>
+<ul class="ff">
+  <li>
+      <a href="https://www.internetdownloadmanager.com/">Internet Download Manager</a>
+      - shareware download manager for Windows.
+  </li>
+    <li>
+    <a href="http://www.jdownloader.org/home/index">JDownloader</a> - a free, open-source download management tool with a huge community of developers that makes downloading as easy and fast as it should be.
+    </li>
+    <li>
+      <a href="https://subhra74.github.io/xdm/#">Xtreme Download Manager</a>
+      - a tool which claims to increase download speeds by up-to 500%. 
+  	</li>
+  	<li>
+      <a href="https://ugetdm.com/">uGet</a>
+      - Open Source Download Manager.
+  	</li>
+</ul>
+<h4 class="z">Mobile</h4>
+<ul class="ff">
+    <li>
+    <a href="https://play.google.com/store/apps/details?id=com.dv.adm&hl=en">ADM</a>
+    - Powerful Downloader for Android.
+    </li>
+    <li>
+    <a href="https://play.google.com/store/apps/details?id=idm.internet.download.manager.plus">IDM+</a>
+    - Also mobile torrent client
+    </li>
+        </ul>
+    </div>
+   </td>
+</tr>
+
+<br>
+<tr>
+	<td>
+<button type="button" class="collapsible">DDL Sites</button>
+<div class="content">
+<ul class="ff">
+    <li>
+        <a href="https://pahe.in/">Pahe</a>
+    </li>
+    <li>
+        <a href="https://snahp.it/">Snahp.it</a>
+    </li>
+    <li>
+        <a href="https://www.ddlvalley.me/">DDLValley</a>
+    </li>
+    <li>
+        <a href="https://2ddl.vg/">TwoDDL</a>
+    </li>
+        </ul>
+</div>
+</td>
+</tr>
+</table>
+<br>
+<hr>
+ <br>
+ <div id="bcont">
+<a href="download.html" class="button">Continue</a>
+    </div>
+<br>
+
+
+
+
+
+
+    <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+
+    </body>
+    
+</html>
+

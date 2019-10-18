@@ -1,0 +1,186 @@
+body{
+	background-image: url(../images/backg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.top {
+	float: none;
+	background-image: linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+        ),url(../images/hack.jpg);
+	border-radius: 15px;
+	background-repeat: no-repeat;
+	//display: block;	
+	//background-position: center;
+	background-attachment: scroll;
+
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 400px;
+	}
+.cen{
+	cursor: not-allowed;
+	font-family: Book Antiqua;
+	color: white;
+	font-size: 120px;
+	font-style: normal;
+	position: absolute;
+	text-align: center;
+	text-shadow: 4px 4px black;
+  	top: 30%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	//z-index: 1;
+  }
+.int{
+	text-indent: 5%;
+	font-size: 150%;
+}
+
+.collapsible {
+	//margin-left: 50px;
+ 	background-color: #696969;
+ 	border-radius: 15px;
+  	color: white;
+  	text-shadow: 2px 2px black;
+  	cursor: pointer;
+  	padding: 16px;
+  	//width: 50%;
+  	border: none;
+  	text-align: center;
+  	outline: none;
+  	font-size: 25px;
+}
+.content {
+	
+  	position: relative;
+  	padding: 0 18px;
+  	max-height: 0;
+  	overflow: hidden;
+  	transition: max-height 0.3s ease-out;
+
+}
+.z{
+	text-shadow: 2px 2px black;
+	color: white;
+	font-size: 30px;
+	font-style: italic;
+}
+.ff a,li{
+	color: white;
+	list-style-type:circle;
+	font-size:150%;
+	text-decoration: none;
+}
+.tt{
+	color: white;
+	padding-left: 100px;
+	font-size: 50px;
+}
+table {
+	position: static;
+	width: 700px; 
+	border-collapse: collapse; 
+	//margin:50px auto;
+	margin-left: auto;
+	margin-right: auto;
+	}
+th{
+	font-size: 35px;
+}
+th,td { 
+	margin-left: 13%;
+	margin-right: auto;
+	padding: 10px; 
+	text-align: center; 
+	//font-size: 30px;
+	color: white;
+	}
+.button{
+	border: 2px solid #000000;
+  	color: white;
+  	padding: 10px 20px;
+  	//text-align: center;
+  	display: inline-block;
+  	font-size: 30px;
+  	text-decoration: none;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 10%;
+  	text-shadow: 2px 2px black;	
+}
+#bcont{
+	text-align: center;
+}
+hr{
+	width: 80%;
+}
+
+.how{
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+	text-shadow: 0.8px 0.8px white;
+	background-color: red;
+	text-align: center;
+}
+.tut{
+	color: white;
+	font-size: 30px;
+	//text-align: center;
+	overflow: scroll;
+	margin-left: 300px;
+	width: 50%;
+	height: 30%;
+}
+.tuts{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	//overflow: scroll;
+	margin-left: 300px;
+	width: 50%;
+	height: 30%;
+}
+.ps{
+	color: white;
+	font-size: 30px;
+	//text-align: center;
+	overflow: auto;
+	margin-left: 300px;
+	width: 50%;
+	height: 30%;
+}
+.pie{
+	display: block;
+	//position: fixed;
+  	margin-left: auto;
+ 	margin-right: auto;
+  	//width: 50%;
+}
+.logo1{
+	position: fixed;
+	width: 262px;
+	height: 262px;
+	top: 10%;
+	left: 9.5%;
+	//right: 1%;
+	//margin-top: -100px;
+	margin-left: -120px;
+	z-index: -99999;
+}
+.logo2{
+	position: fixed;
+	width: 262px;
+	height: 262px;
+	top: 10%;
+	//left: 10%;
+	right: 0.5%;
+	//margin-top: -100px;
+	margin-left: -120px;
+	z-index: -99999;
+}
