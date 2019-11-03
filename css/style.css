@@ -162,16 +162,22 @@ hr.m{
 }
 .pie{
 	transform: translate(0,5px);
-	display: block;
-	//position: fixed;
+	display: block;	
   	margin-left: auto;
- 	margin-right: auto;
-  	//width: 50%;
-  	border: 10px solid transparent;
-  	//padding: 8px;
+ 	margin-right: auto; 	
+  	border: 10px solid transparent; 	
   	border-image: url(../images/red.png) 50 round;
   	box-shadow: #B22222 3px 3px;
 }
+.pie1{
+	transform: translate(0,5px);
+	display: block;	
+  	margin-left: auto;
+ 	margin-right: auto;	
+  	border: 10px solid transparent; 
+ 	border-image: url(../images/red.png) 50 round;
+  	box-shadow: #B22222 3px 3px;
+  	}
 .spin {
      -webkit-animation-name: spinner; 
     -webkit-animation-timing-function: linear; 
@@ -264,6 +270,29 @@ hr.m{
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-right: 25px;
+	border-bottom-width: 2px;
 }
- 
+.pie{
+	width: 325px;
+}
+.pie1{
+	width: 325px;
+}
+.tut{
+	margin-left: 8px;
+	width: 117%;
+}
+.tuts{
+	margin-left: 2px;
+}
+.how{
+	padding-right: 31px;
+	padding-left: 15px;
+	margin-left: 67px;
+}
+.ps{
+	margin-left: 0px;
+	width: 120%;
+}
+
 }
