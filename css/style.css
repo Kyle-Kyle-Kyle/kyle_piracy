@@ -11,6 +11,7 @@ body{
           rgba(0, 0, 0, 0.5)
         ),url(../images/hack.jpg);
 	border-radius: 15px;
+	margin-top: 20px;
 	background-repeat: no-repeat;
 	//display: block;	
 	//background-position: center;
@@ -119,14 +120,18 @@ th,td {
 hr{
 	width: 900px;
 }
+hr.m{
+	width: 600px;
+}
 
 .how{
 	margin-left: auto;
 	margin-right: auto;
-	width: 65%;
+	width: 60%;
 	text-shadow: 0.8px 0.8px white;
-	background-color: red;
+	background-image: linear-gradient(to right,red,yellow,red);
 	text-align: center;
+	border-radius: 10px;
 }
 .tut{
 	color: white;
@@ -156,11 +161,36 @@ hr{
 	height: 30%;
 }
 .pie{
+	transform: translate(0,5px);
 	display: block;
 	//position: fixed;
   	margin-left: auto;
  	margin-right: auto;
   	//width: 50%;
+  	border: 10px solid transparent;
+  	//padding: 8px;
+  	border-image: url(../images/red.png) 50 round;
+  	box-shadow: #B22222 3px 3px;
+}
+.spin {
+     -webkit-animation-name: spinner; 
+    -webkit-animation-timing-function: linear; 
+    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-duration: 2s; 
+    animation-name: spinner; 
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite; 
+    animation-duration: 6s; 
+    -webkit-transform-style: preserve-3d; 
+    -moz-transform-style: preserve-3d; 
+    -ms-transform-style: preserve-3d; 
+    transform-style: preserve-3d;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 350px;
 }
 .logo1{
 	position: fixed;
@@ -184,10 +214,56 @@ hr{
 	margin-left: -120px;
 	z-index: -99999;
 }
-@media only screen and (max-width:500px) 
+@keyframes spinner { 
+    from { 
+        -moz-transform: rotateY(0deg); 
+        -ms-transform: rotateY(0deg); 
+        transform: rotateY(0deg); 
+    } 
+    to 
+    { 
+        -moz-transform: rotateY(-360deg); 
+        -ms-transform: rotateY(-360deg); 
+        transform: rotateY(-360deg); 
+    
+    } 
+}
+@media only screen and (max-width:360px) 
 {
+
+body{
+	width: 360px;
+}
+.top{
+ 	padding-right: 0px;
+	margin-right: 79px;
+	margin-left: -1px;
+	width: 347px;
+ 	height: 250px;
+}
+.cen{
+ 	font-size: 60px;
+}
+.logo1, .logo2{
+ 	display: none;
+}
+th{
+ 	padding-right: 360px;
+}
+td{
+ 	padding-right: 360px;
+}
+hr{
+ 	width: 338px;
+	margin-left: 3px;
+}
+hr.m{
+	margin-left: 25px;
+	width: 285px;
+}
+.button{
+	padding-right: 93px;
+	margin-left: -12px;
+}
  
-  .tut, .ff, .tuts, .how, .cen ,hr{
-    width: 100%;
-  }
 }
