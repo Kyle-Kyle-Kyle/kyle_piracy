@@ -259,9 +259,8 @@ hr.m{
 	max-width: 285px;
 }
 .button{
-	margin-left: 56px;
-	padding-right: 93px;
-	
+	width: 37%;
+	margin-left: 60px;
 }
  
 }
