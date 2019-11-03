@@ -1,5 +1,5 @@
 body{
-	background-image: url(../images/backg.png);
+	background-image: url(../images/newbg.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -228,18 +228,15 @@ hr.m{
     
     } 
 }
-@media only screen and (max-width:360px) 
-{
 
-body{
-	width: 360px;
-}
+@media only screen and (max-width:360px) and (max-height: 640px)
+{
+	body{
+		width: 80%;
+	}
 .top{
- 	padding-right: 0px;
-	margin-right: 79px;
-	margin-left: -1px;
-	width: 347px;
- 	height: 250px;
+	max-width: 344px;
+	max-height: 250px;
 }
 .cen{
  	font-size: 60px;
@@ -247,23 +244,24 @@ body{
 .logo1, .logo2{
  	display: none;
 }
-th{
- 	padding-right: 360px;
+table{
+	width: 100%;
+	margin-left: 30px;
 }
-td{
- 	padding-right: 360px;
+.ff a,li{
+	font-size: 140%;
 }
 hr{
- 	width: 338px;
-	margin-left: 3px;
+ 	max-width: 342px;
 }
 hr.m{
 	margin-left: 25px;
-	width: 285px;
+	max-width: 285px;
 }
 .button{
+	margin-left: 56px;
 	padding-right: 93px;
-	margin-left: -12px;
+	
 }
  
 }
